@@ -6,7 +6,7 @@ AccessService is a microservice designed to address the limitations of the exist
 
 The Company's solution allows users to create and manage their cloud projects, environments, and deployments. Authentication to Company is currently facilitated by an external service (Auth0) using credentials from GitHub, Bitbucket, or GitLab. Upon successful authentication, the external service issues a signed JWT token that Company uses to identify the user. However, this approach does not cater to automated CI/CD processes, which require an automated login mechanism.
 
-## Solution Overview
+## The Solution 
 
 To overcome the limitations of the existing authentication solution, AccessService acts as an intermediary microservice that provides users with automated credentials based on API keys. These API keys can be used by CI/CD processes to authenticate with Company's services and execute commands. AccessService generates signed JWT tokens based on the API key, incorporating the original user ID and the permissions associated with the key.
 
