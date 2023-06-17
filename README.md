@@ -10,7 +10,7 @@ The Company's solution allows users to create and manage their cloud projects, e
 
 To overcome the limitations of the existing authentication solution, AccessService acts as an intermediary microservice that provides users with automated credentials based on API keys. These API keys can be used by CI/CD processes to authenticate with Company's services and execute commands. AccessService generates signed JWT tokens based on the API key, incorporating the original user ID and the permissions associated with the key.
 
-## Example Use Case
+## Example Use Cases
 
 To illustrate the functionality of AccessService, consider the following use case:
 
