@@ -1,0 +1,1 @@
+{"version":3,"file":"revoke-api-key.validations.js","sourceRoot":"","sources":["../../../../src/access/dto/validations/revoke-api-key.validations.ts"],"names":[],"mappings":";;;AAAA,2BAA2B;AAC3B,MAAa,uBAAuB;IAClC,MAAM,CAAC,qBAAqB;QAC1B,OAAO,GAAG,CAAC,MAAM,CAAC;YAChB,QAAQ,EAAE,GAAG,CAAC,MAAM,EAAE,CAAC,QAAQ,EAAE;SAClC,CAAC,CAAC;IACL,CAAC;CACF;AAND,0DAMC"}
