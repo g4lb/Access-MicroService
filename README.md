@@ -1,4 +1,4 @@
-# AccessService
+# Access Micoservice
 
 AccessService is a microservice designed to address the limitations of the existing authentication solution provided by an external service (Auth0) for automated CI/CD processes. It enables users to obtain automated credentials, in the form of API keys and JWT tokens, for seamless integration with CI/CD platforms such as Jenkins, GitHub Actions, CircleCI, and others.
 
